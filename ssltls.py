@@ -40,8 +40,8 @@ if __name__ == '__main__':
         print("Usage: python3 ssltls.py <hostname>")
         sys.exit(1)
 
-    email = "limitedhighspeed@gmail.com"
-    api_token = "cbac2627c4d21e32be6cb73d1935aaceb1567"
+    email = "@"
+    api_token = "@"
     hostname = sys.argv[1]
 
     SSLTLS_enable(email, api_token, hostname)
