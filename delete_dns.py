@@ -22,7 +22,7 @@ if __name__ == '__main__':
         exit(1)
 
     hostname = sys.argv[1]
-    api_key = "cbac2627c4d21e32be6cb73d1935aaceb1567"
-    email = "limitedhighspeed@gmail.com"
+    api_key = "@"
+    email = "٬@gmail.com"
 
     delete_all_dns_records(hostname, api_key, email)
